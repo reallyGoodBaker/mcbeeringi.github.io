@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-	<script async src="https://mcbeeringi.github.io/src/gas.js"></script>
+	<script async src="/src/gas.js"></script>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -25,7 +25,7 @@
 	<pre id="err"></pre><br>
 
 	<script type="module">
-		import{zip,dl}from'https://mcbeeringi.github.io/petit/zip.mjs';
+		import{zip,dl}from'/petit/zip.mjs';
 
 		pastebtn.onclick=async _=>runbtn.onclick(inp.value=await navigator.clipboard.readText());
 		copybtn.onclick=_=>navigator.clipboard.writeText(Object.assign(new URL(location),{search:inp.value}));

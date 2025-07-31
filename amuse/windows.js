@@ -2,7 +2,7 @@
  * made by @McbeEringi MIT
  * last modified 2020/12/6
  *
- * example : https://mcbeeringi.github.io/amuse/desktop.html
+ * example : /amuse/desktop.html
  */
 
 var wjs_pos=[{},{}];
